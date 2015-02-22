@@ -7,6 +7,7 @@ It can be used without root privileges after you add group membership to "pi" li
 
 As the leds have different brighnesses ( especially blue and white are EXTREMELY bright), now you can dim these down to reasonable values.
 Example: Dim down white to 50%
+
     local glow = require"piglow"
     glow:set_dimmer("white",0.5)
 
